@@ -1,34 +1,97 @@
 
+import org.testng.internal.Utils;
+
 import java.sql.*;
 
 public class NewsDAO {
-    ConnexionMySQL unConnexionMySQL = new ConnexionMySQL();
-    Connection con;
+    private String title;
+    private String content;
+    private String date;
+    private int idJournalist;
 
-    public String getJournalisteById(int id)  throws Exception{
+
+    private static ConnexionMySQL unConnexionMySQL = new ConnexionMySQL();
+    private static Connection con;
+
+    public static NewsDAO create(String Title, String Content, String Date, int IdJournalist)  throws Exception{
+        con = unConnexionMySQL.ConnexionMySQL();
+
+        NewsDAO test = new NewsDAO(Title, Content, Date, IdJournalist);
+
+        Statement statement = con.createStatement();
+        int resultSet = statement.executeUpdate("INSERT INTO news(title, content, date, idJournalist) VALUES("
+                +Utils.toString(Title)+", "
+                +Utils.toString(Content)+", "
+                +Utils.toString(Date)+", "
+                +Utils.toString(IdJournalist)+
+                ")", Statement.NO_GENERATED_KEYS);
+        return test;
+    }
+
+    public static NewsDAO readNewsById(int id_news)  throws Exception{
         con = unConnexionMySQL.ConnexionMySQL();
         Statement statement = con.createStatement();
-        ResultSet resultSet = statement.executeQuery("SELECT reporter.name from reporter,news where news.id_reporter=reporter.id_reporter AND id_news = "+id);
+        ResultSet resultSet = statement.executeQuery("SELECT * from news where news.id = "+id_news);
         if (resultSet.next()){
-            return resultSet.getString(1);
+            return creerParRequete(resultSet);
         }
         else{
-            return "Nan";
+            return null;
         }
     }
 
-    public String getNewsById(int id)  throws Exception{
+    public static NewsDAO readNewsAndJournalistByIdNews(int id)  throws Exception{
         con = unConnexionMySQL.ConnexionMySQL();
         Statement statement = con.createStatement();
-        ResultSet resultSet = statement.executeQuery("SELECT * from news where id_news = "+id);
+        ResultSet resultSet = statement.executeQuery("SELECT news.title, journalist.name from news, journalist where news.id = "+id+" AND  news.IdJournalist = journalist.id " );
         if (resultSet.next()){
-            return resultSet.getString(1);
-
+            return creerParRequete(resultSet);
         }
         else{
-            return "Nan";
+            return null;
         }
     }
+
+    private static NewsDAO creerParRequete(ResultSet result) throws Exception {
+        String    lTitle  = result.getString("Title");
+        String    lContent  = result.getString("Content");
+        String    lDate = result.getString("Date");
+        int    lidJournalist  = result.getInt("IdJournalist");
+        return    new NewsDAO(lTitle, lContent, lDate, lidJournalist);
+    }
+
+    public NewsDAO(String Title, String Content, String Date, int IdJournalist) {
+        this.title = Title;
+        this.content = Content;
+        this.date = Date;
+        this.idJournalist = IdJournalist;
+    }
+
+    public String getTitle(){
+        return title;
+    }
+
+    public String getContent(){
+        return content;
+    }
+
+    public int getIdJournalist(){
+        return idJournalist;
+    }
+
+    /**
+     * toString() operator overload
+     * @return   the result string
+     */
+    @Override
+    public String toString() {
+        return  " Title =  " + title + Utils.toString(title) +
+                " Content = " + Utils.toString(content) +
+                " Date = " + Utils.toString(date) +
+                " IdJournalist = " + "\t"
+                + " ";
+    }
+
 }
 
 

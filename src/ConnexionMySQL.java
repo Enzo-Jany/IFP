@@ -2,10 +2,10 @@ import java.sql.*;
 
 public class ConnexionMySQL {
     /** driverDst : MySQl driver  */
-    private static String driver    = "com.mysql.jdbc.Driver";
+    private static String driver    = "com.mysql.cj.jdbc.Driver";
 
     /** url : ConnexionMySQL URL */
-    private static String url       = "jdbc:mysql://localhost:8889/IFP";
+    private static String url       = "jdbc:mysql://localhost:8889/IPF?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC";
 
     /** userName :  */
     private static String userName  = "root";
