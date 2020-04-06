@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926edaf7-b7ed-421c-bae6-054b3f05ac38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IPF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IPF/ConnexionMySQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/ConnexionMySQL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IPF/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/News.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IPF/NewsDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/NewsDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IPF/ReporterDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/ReporterDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IPF/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IPF/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConnexionMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConnexionMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IPF/TestNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/TestNews.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NewsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReporterDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReporterDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEstE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestNews.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +45,6 @@
     <property name="project.structure.side.proportion" value="0.33793104" />
   </component>
   <component name="RunManager" selected="JUnit.TestNews">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="IPF" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IPF" />
       <option name="PACKAGE_NAME" value="" />
@@ -98,6 +74,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNews.TestReadByIdJournalist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IPF" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNews" />
+      <option name="METHOD_NAME" value="TestReadByIdJournalist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNews.TestReadNewsById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IPF" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,10 +97,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestNews" />
+        <item itemvalue="JUnit.TestNews.TestReadByIdJournalist" />
         <item itemvalue="JUnit.TestNews.TestCreate" />
         <item itemvalue="JUnit.TestNews.TestCreate2" />
         <item itemvalue="JUnit.TestNews.TestReadNewsById" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +117,7 @@
       <workItem from="1586160183423" duration="3993000" />
       <workItem from="1586164922658" duration="12853000" />
       <workItem from="1586178474246" duration="890000" />
-      <workItem from="1586179370348" duration="287000" />
+      <workItem from="1586179370348" duration="3895000" />
     </task>
     <servers />
   </component>
@@ -152,8 +138,8 @@
     </state>
     <state x="482" y="153" key="DetectedRootsChooserDialog/0.23.1440.821@0.23.1440.821" timestamp="1580996546173" />
     <state x="482" y="151" key="DetectedRootsChooserDialog/1440.23.1920.1057/0.23.1440.809@0.23.1440.809" timestamp="1586161392942" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1586179662530">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1586183318047">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1581062046910" />
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1581002689674" />
@@ -167,8 +153,10 @@
     <state width="1358" height="250" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1586167846587" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1586179367033" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1586179662530" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1586179662529">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586183318047" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586182008073" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1586183318046">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="186" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1581062046909" />
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1581002689673" />
@@ -182,8 +170,10 @@
     <state width="1358" height="250" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1586167846586" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1586179367032" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1586179662529" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1586179662529">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586183318046" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586182008072" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1586183318046">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="186" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1581062046909" />
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1581002689673" />
@@ -197,8 +187,10 @@
     <state width="1358" height="250" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1586167846585" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1586179367031" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1586179662529" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1586179662530">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586183318046" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586182008072" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1586183318047">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="186" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1581062046909" />
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1581002689673" />
@@ -212,6 +204,8 @@
     <state width="1358" height="250" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1586167846586" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1586179367033" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1586179662530" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586183318047" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586182008073" />
     <state width="1358" height="250" key="GridCell.Tab.1.bottom" timestamp="1586178470678">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
