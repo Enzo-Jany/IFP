@@ -28,16 +28,18 @@ public class NewsDAO {
         return test;
     }
 
-    /*public void save(int id) throws Exception {
+    public void save(int id) throws Exception {
         con = unConnexionMySQL.ConnexionMySQL();
+        String queryString = "update news set "
+                            + " Title = '" + title + "',"
+                            + " Content = '" + content + "',"
+                            + " Date = '" + date + "',"
+                            + " IdJournalist = " + idJournalist +
+                            " where id ='" + id + "'";
+
         Statement lStat = con.createStatement();
-        lStat.executeUpdate( "update news set "
-                + " Title = " + Utils.toString(title) + ","
-                + " Content = " + Utils.toString(content) + ","
-                + " Date = " + Utils.toString(date) + ","
-                + " IdJournalist = " + Utils.toString(idJournalist) +
-                " where title ='" + id + "'", Statement.NO_GENERATED_KEYS);
-    }*/
+        lStat.executeUpdate( queryString, Statement.NO_GENERATED_KEYS);
+    }
 
     public static boolean delete(int id) throws Exception {
         String queryString = "delete from news where id='" + id + "'";
@@ -93,12 +95,9 @@ public class NewsDAO {
             lesNews.add(creerParRequete(resultSet));
         }
         return lesNews;
-
     }
 
-
-
-        private static NewsDAO creerParRequete(ResultSet result) throws Exception {
+    private static NewsDAO creerParRequete(ResultSet result) throws Exception {
         String    lTitle  = result.getString("Title");
         String    lContent  = result.getString("Content");
         String    lDate = result.getString("Date");
@@ -121,8 +120,28 @@ public class NewsDAO {
         return content;
     }
 
+    public String getDate(){
+        return date;
+    }
+
     public int getIdJournalist(){
         return idJournalist;
+    }
+
+    public void setTitle(String Title) throws Exception {
+        this.title = Title;
+    }
+
+    public void setContent(String Content) throws Exception {
+        this.content = Content;
+    }
+
+    public void setDate(String Date) throws Exception {
+        this.date = Date;
+    }
+
+    public void setIdJournalist(int idJournalist) throws Exception {
+        this.idJournalist = idJournalist;
     }
 
 }

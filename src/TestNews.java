@@ -26,14 +26,15 @@ public class TestNews {
 
     /**
      * Test of SaveNews method, of class NewsDAO.
-     *//*
+     */
     @Test
     public void TestSave() throws Exception {
-        NewsDAO result = NewsDAO.("4000");
-        result.setContent("1234");
-        result.save();
-        result = NewsDAO.readNewsByTitle("4000");
-        assertEquals("1234", result.getContent());
+        NewsDAO result = NewsDAO.readNewsById(1);
+        result.setTitle("News1");
+        result.save(1);
+
+        result = NewsDAO.readNewsById(1);
+        assertEquals("News1", result.getTitle());
     }
 
     /**
@@ -50,8 +51,8 @@ public class TestNews {
      */
     @Test
     public void TestReadNewsById() throws Exception {
-        NewsDAO result = NewsDAO.readNewsById(1);
-        assertEquals("News1", result.getTitle());
+        NewsDAO result = NewsDAO.readNewsById(2);
+        assertEquals("News2", result.getTitle());
     }
 
     /**
