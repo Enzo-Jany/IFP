@@ -21,10 +21,10 @@ public class NewsDAO {
 
         Statement statement = con.createStatement();
         int resultSet = statement.executeUpdate("INSERT INTO news(title, content, date, idJournalist) VALUES("
-                +Utils.toString(Title)+", "
-                +Utils.toString(Content)+", "
-                +Utils.toString(Date)+", "
-                +Utils.toString(IdJournalist)+
+                +"'"+Title+"', "
+                +"'"+Content+"', "
+                +Date+", "
+                +IdJournalist+
                 ")", Statement.NO_GENERATED_KEYS);
         return test;
     }
@@ -123,22 +123,6 @@ public class NewsDAO {
     public int getIdJournalist(){
         return idJournalist;
     }
-
-
-    /**
-     * toString() operator overload
-     * @return   the result string
-     */
-    @Override
-    public String toString() {
-        return  " Title =  " + title + Utils.toString(title) +
-                " Content = " + Utils.toString(content) +
-                " Date = " + Utils.toString(date) +
-                " IdJournalist = " + "\t"
-                + " ";
-    }
-
-
 
 }
 

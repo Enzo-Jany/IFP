@@ -20,8 +20,8 @@ public class TestNews {
      */
     @Test
     public void TestCreate() throws Exception {
-        NewsDAO result = NewsDAO.create("4000", "2", "20000210", 1);
-        assertEquals("4000", result.getTitle());
+        NewsDAO result = NewsDAO.create("News9", "Content55", "20000210", 1);
+        assertEquals("News9", result.getTitle());
     }
 
     /**

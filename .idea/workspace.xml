@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="926edaf7-b7ed-421c-bae6-054b3f05ac38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IPF/META-INF/IPF.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IPF/NewsDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/NewsDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IPF/TEST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/TEST.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IPF/TestNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/TestNews.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NewsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TEST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33793104" />
   </component>
-  <component name="RunManager" selected="JUnit.TestNews">
+  <component name="RunManager" selected="Application.main">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="IPF" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IPF" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,23 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNews.TestReadNewsById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IPF" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNews" />
-      <option name="METHOD_NAME" value="TestReadNewsById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="JUnit.TestNews" />
         <item itemvalue="JUnit.TestNews.TestReadByIdJournalist" />
         <item itemvalue="JUnit.TestNews.TestCreate" />
         <item itemvalue="JUnit.TestNews.TestCreate2" />
-        <item itemvalue="JUnit.TestNews.TestReadNewsById" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +118,7 @@
       <workItem from="1586160183423" duration="3993000" />
       <workItem from="1586164922658" duration="12853000" />
       <workItem from="1586178474246" duration="890000" />
-      <workItem from="1586179370348" duration="3895000" />
+      <workItem from="1586179370348" duration="4090000" />
     </task>
     <servers />
   </component>
@@ -138,9 +139,10 @@
     </state>
     <state x="482" y="153" key="DetectedRootsChooserDialog/0.23.1440.821@0.23.1440.821" timestamp="1580996546173" />
     <state x="482" y="151" key="DetectedRootsChooserDialog/1440.23.1920.1057/0.23.1440.809@0.23.1440.809" timestamp="1586161392942" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1586183318047">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom" timestamp="1586242760967">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1586214179703" />
     <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1581062046910" />
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1581002689674" />
     <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581089341572" />
@@ -149,15 +151,18 @@
     <state width="1878" height="186" key="GridCell.Tab.0.bottom/0.23.1440.823/-279.-1057.1920.1057@-279.-1057.1920.1057" timestamp="1581072934559" />
     <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1581078937752" />
     <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.809@0.23.1440.809" timestamp="1586162427120" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.809@1440.23.1920.1057" timestamp="1586242760967" />
     <state width="1358" height="201" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.811@0.23.1440.811" timestamp="1586169483246" />
     <state width="1358" height="250" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1586167846587" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1586179367033" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1586179662530" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1586183615745" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586183318047" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586182008073" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1586183318046">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center" timestamp="1586242760966">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1586214179702" />
     <state width="1398" height="186" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1581062046909" />
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1581002689673" />
     <state width="1398" height="186" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1581089341571" />
@@ -166,15 +171,18 @@
     <state width="1878" height="186" key="GridCell.Tab.0.center/0.23.1440.823/-279.-1057.1920.1057@-279.-1057.1920.1057" timestamp="1581072934558" />
     <state width="1398" height="186" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1581078937752" />
     <state width="1398" height="208" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.809@0.23.1440.809" timestamp="1586162427120" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.809@1440.23.1920.1057" timestamp="1586242760966" />
     <state width="1358" height="201" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.811@0.23.1440.811" timestamp="1586169483245" />
     <state width="1358" height="250" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1586167846586" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1586179367032" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1586179662529" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1586183615744" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586183318046" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586182008072" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1586183318046">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left" timestamp="1586242760966">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1586214179701" />
     <state width="1398" height="186" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1581062046909" />
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1581002689673" />
     <state width="1398" height="186" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1581089341571" />
@@ -183,15 +191,18 @@
     <state width="1878" height="186" key="GridCell.Tab.0.left/0.23.1440.823/-279.-1057.1920.1057@-279.-1057.1920.1057" timestamp="1581072934557" />
     <state width="1398" height="186" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1581078937751" />
     <state width="1398" height="208" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.809@0.23.1440.809" timestamp="1586162427119" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.809@1440.23.1920.1057" timestamp="1586242760966" />
     <state width="1358" height="201" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.811@0.23.1440.811" timestamp="1586169483245" />
     <state width="1358" height="250" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1586167846585" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1586179367031" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1586179662529" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1586183615744" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586183318046" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586182008072" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1586183318047">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right" timestamp="1586242760966">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1586214179702" />
     <state width="1398" height="186" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1581062046909" />
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1581002689673" />
     <state width="1398" height="186" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1581089341572" />
@@ -200,10 +211,12 @@
     <state width="1878" height="186" key="GridCell.Tab.0.right/0.23.1440.823/-279.-1057.1920.1057@-279.-1057.1920.1057" timestamp="1581072934558" />
     <state width="1398" height="186" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1581078937752" />
     <state width="1398" height="208" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.809@0.23.1440.809" timestamp="1586162427120" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.809@1440.23.1920.1057" timestamp="1586242760966" />
     <state width="1358" height="201" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.811@0.23.1440.811" timestamp="1586169483245" />
     <state width="1358" height="250" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1586167846586" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.816@0.23.1440.816" timestamp="1586179367033" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1586179662530" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1586183615745" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586183318047" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586182008073" />
     <state width="1358" height="250" key="GridCell.Tab.1.bottom" timestamp="1586178470678">
@@ -264,9 +277,13 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="385" y="195" key="run.anything.popup/0.23.1440.821@0.23.1440.821" timestamp="1580995853065" />
+    <state x="385" y="156" width="670" height="676" key="search.everywhere.popup" timestamp="1586212941310">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="385" y="156" width="670" height="676" key="search.everywhere.popup/0.23.1440.809@0.23.1440.809" timestamp="1586212941310" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/IPF$main.ic" NAME="main Coverage Results" MODIFIED="1581070676132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IPF$TestNews.ic" NAME="TestNews Coverage Results" MODIFIED="1586173856655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IPF$main.ic" NAME="main Coverage Results" MODIFIED="1581070676132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

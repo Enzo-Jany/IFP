@@ -17,9 +17,10 @@ public class TEST {
         TEST test = new TEST(Numero, Test1);
 
         Statement statement = con.createStatement();
+
         int resultSet = statement.executeUpdate("INSERT INTO test(numero, test1) VALUES("
-                +Utils.toString(Numero)+", "
-                +Utils.toString(Test1)+
+                +"'"+Numero+"', "
+                +Test1+
                 ")", Statement.NO_GENERATED_KEYS);
         return test;
     }
