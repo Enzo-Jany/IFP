@@ -1,5 +1,4 @@
 
-import org.testng.internal.Utils;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -29,7 +28,7 @@ public class NewsDAO {
         return test;
     }
 
-    public void save(int id) throws Exception {
+    /*public void save(int id) throws Exception {
         con = unConnexionMySQL.ConnexionMySQL();
         Statement lStat = con.createStatement();
         lStat.executeUpdate( "update news set "
@@ -38,7 +37,7 @@ public class NewsDAO {
                 + " Date = " + Utils.toString(date) + ","
                 + " IdJournalist = " + Utils.toString(idJournalist) +
                 " where title ='" + id + "'", Statement.NO_GENERATED_KEYS);
-    }
+    }*/
 
     public static boolean delete(int id) throws Exception {
         String queryString = "delete from news where id='" + id + "'";
@@ -84,15 +83,17 @@ public class NewsDAO {
     }
 
 
-    public static ArrayList<NewsDAO> getByIdJournalist(int IdJournalist) throws Exception {
-        ArrayList<NewsDAO> lesNewsDAO = new ArrayList<>();
-        Statement lStat = con.createStatement();
-        ResultSet lResult = lStat.executeQuery("select * from news where IdJournalist='" + IdJournalist + "'");
-        // y en a t'il au moins un ?
-        while (lResult.next()) {
-            lesNewsDAO.add(creerParRequete(lResult));
+    public static ArrayList<NewsDAO> getByIdJournalist(int IdJournalist)  throws Exception{
+        con = unConnexionMySQL.ConnexionMySQL();
+
+        ArrayList<NewsDAO> lesNews = new ArrayList<>();
+        Statement statement = con.createStatement();
+        ResultSet resultSet = statement.executeQuery("SELECT * from news where news.IdJournalist = "+IdJournalist);
+        while (resultSet.next()) {
+            lesNews.add(creerParRequete(resultSet));
         }
-        return lesNewsDAO;
+        return lesNews;
+
     }
 
 
