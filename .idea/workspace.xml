@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="926edaf7-b7ed-421c-bae6-054b3f05ac38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IPF/NewsDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/NewsDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IPF/TEST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IPF/TestNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPF/TestNews.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NewsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEST.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestNews.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

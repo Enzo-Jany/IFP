@@ -56,10 +56,10 @@ public class TestNews {
     }
 
     /**
-     * Test of readNewsByIdJournalist method, of class NewsDAO.
+     * Test of readArrayNewsByIdJournalist method, of class NewsDAO.
      */
     @Test
-    public void TestReadByIdJournalist() throws Exception {
+    public void TestReadArrayByIdJournalist() throws Exception {
         ArrayList<NewsDAO> result = NewsDAO.getByIdJournalist(1);
         assertEquals("News1", result.get(0).getTitle());
         assertEquals("News4", result.get(1).getTitle());
